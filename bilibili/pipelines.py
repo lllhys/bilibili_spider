@@ -20,30 +20,6 @@ from pymongo import MongoClient
 
 
 class BilibiliPipeline(object):
-    # def __init__(self):
-    #     # 建立数据库连接
-    #     client = MongoClient(settings["MONGO_HOST"], settings["MONGO_PORT"])
-    #     # 连接目标数据库
-    #     db = client["bilibili"]
-    #     db.authenticate(settings["MONGO_USERNAME"], settings["MONGO_PASSWORD"])
-    #     # 连接集合
-    #     # 根据当前日期建立集合
-    #     col_name = "b_video_stat_" + time.strftime("%Y%m%d")
-    #     col = db[col_name]
-    #
-    #     self.col = col
-    #
-    # def process_item(self, item, spider):
-    #     try:
-    #         data = dict(item)
-    #         self.col.insert_one(data)
-    #     except Exception as error:
-    #         # 记录保存错误的url
-    #         logger.error(error)
-    #         with open("./error_mongo.txt", "a") as fb:
-    #             fb.write("aid:" + str(item["aid"]))
-    #             fb.write("\n")
-    #     return item
 
     # 保存到mysql
     def process_item(self, item, spider):

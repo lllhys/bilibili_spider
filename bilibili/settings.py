@@ -4,14 +4,14 @@
 '''
    本地配置
 '''
+# 指定bilibili登录用户名密码
 BILIBILI_USERNAME = '****'
 BILIBILI_PASSWORD = '****'
 
 # 头像存储路径
 IMAGES_STORE = '../face_image/'
 
-
-# 指定连接到redis时使用的端口和地址（可选）
+# 指定连接到redis时使用的端口和地址
 # 与代理ip公用设置
 REDIS_HOST = '127.0.0.1'
 REDIS_PORT = 6379
