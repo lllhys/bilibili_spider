@@ -13,10 +13,10 @@ IMAGES_STORE = '../face_image/'
 
 # 指定连接到redis时使用的端口和地址
 # 与代理ip公用设置
-REDIS_HOST = '127.0.0.1'
+REDIS_HOST = 'Host ip'
 REDIS_PORT = 6379
-REDIS_PASSWORD = ''
-REDIS_PROXY_DB = 0
+REDIS_PASSWORD = 'if no password put None'
+REDIS_PROXY_DB = 'db'
 
 # Redis 存储键
 REDIS_START_URLS_KEY = 'bilibili_spider:start_urls'
@@ -24,10 +24,10 @@ REDIS_COOKIES_KEY = 'bilibili_spider:cookies'
 REDIS_PROXY_KEY = 'bilibili_spider:use_proxy'
 
 # Mysql配置
-MYSQL_HOST = '127.0.0.1'
-MYSQL_DBNAME = 'bilibili'
-MYSQL_USER = 'bilibili'
-MYSQL_PASSWD = 'bilibili'
+MYSQL_HOST = 'host ip'
+MYSQL_DBNAME = 'Your database name'
+MYSQL_USER = 'Your database user'
+MYSQL_PASSWD = 'Your database password'
 
 
 
