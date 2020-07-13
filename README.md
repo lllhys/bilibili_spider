@@ -2,7 +2,7 @@
 A bilibili distribute spider project about uploader's following relationship
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![license](https://img.shields.io/github/license/:user/:repo.svg)](LICENSE)
+[![license](https://img.shields.io/github/license/:user/:repo.svg)](https://github.com/llllhy/bilibili_spider/blob/master/LICENSE)
 
 # Features
  - Use Scrapy-redis to build up distribute feature.
