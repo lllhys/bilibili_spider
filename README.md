@@ -1,8 +1,10 @@
 # bilibili_spider
-A bilibili distribute spider project about uploader's following relationship
+A bilibili distribute spider project about uploader's following relationship. In this project, we crawling uploader's basic information about face image, fans number, followinger number and even more. So you can use these information to do some visilization works.
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![license](https://img.shields.io/github/license/:user/:repo.svg)](https://github.com/llllhy/bilibili_spider/blob/master/LICENSE)
+
+
 
 # Features
  - Use Scrapy-redis to build up distribute feature.
